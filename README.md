@@ -62,8 +62,11 @@ This project is perfect for learning how to implement NLP concepts in a chatbot 
 
 chatbot_project/
 │
-├── chatbot.py # Main chatbot script
-└── README.md # Project documentation
+
+├── 
+chatbot.py # Main chatbot script
+└── 
+README.md # Project documentation
 
 ## ▶️ How to Run
 
