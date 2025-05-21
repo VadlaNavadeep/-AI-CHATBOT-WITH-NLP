@@ -65,53 +65,44 @@ chatbot_project/
 ├── chatbot.py # Main chatbot script
 └── README.md # Project documentation
 
+## ▶️ How to Run
+
+Follow these steps to set up and run the chatbot on your system:
+
 1. 🔧 Prerequisites
-
-Ensure Python 3.x is installed:
-
-```bash
+Make sure Python 3.x is installed. You can verify it by running:
 python --version
 
-
-2. 📦 Install Dependencies
-Install the required package:
+3. 📦 Install Required Package
+Install the Natural Language Toolkit (NLTK):
 pip install nltk
 
 3. 📂 Download NLTK Resources
-These resources will be downloaded automatically on first run, but you can also do it manually:
-
-python
-Copy
-Edit
-import nltk
+The first time you run the chatbot, it will download the tokenizer:
 nltk.download('punkt')
+nltk.download('punkt_tab')
+This is handled automatically in the script.
+
 4. 🚀 Run the Chatbot
-Run the chatbot script from your terminal:
-
-bash
-Copy
-Edit
+Run the script from your terminal or command prompt:
 python chatbot.py
-5. 💬 Interact with the Bot
-Example:
 
-vbnet
-Copy
-Edit
+6. 💬 Interact with the Bot
+Start asking questions or greeting the bot. For example:
+
 You: Hello
 Chatbot: Hi there!
 
 You: What is Python?
 Chatbot: Python is a high-level, interpreted programming language...
-6. ❌ Exit the Chat
-Type any of the following to end the conversation:
 
-bash
-Copy
-Edit
+6. ❌ Exit the Chat
+To end the conversation, type any of the following:
 bye
 exit
 quit
+
+
 📌 Note
 This chatbot is for educational and demonstration purposes only. You can expand it by:
 
