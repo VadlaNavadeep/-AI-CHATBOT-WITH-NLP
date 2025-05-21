@@ -103,7 +103,9 @@ exit
 quit
 
 
-📌 Note
+📌 
+
+Note
 This chatbot is for educational and demonstration purposes only. You can expand it by:
 
 Adding a GUI
