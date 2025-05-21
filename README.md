@@ -91,9 +91,11 @@ python chatbot.py
 Start asking questions or greeting the bot. For example:
 
 You: Hello
+
 Chatbot: Hi there!
 
 You: What is Python?
+
 Chatbot: Python is a high-level, interpreted programming language...
 
 6. ❌ Exit the Chat
